@@ -1,0 +1,136 @@
+10:117  1:121  Found BIOS RSDP at F0120
+10:117  0:000  Printing ACPI tables from RSDP F0120 ...
+10:117  0:000   F0120: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+10:117  0:000    (Xsdt: BAFFE170, Rsdt: BAFFE0D4)
+10:117  0:000    BAFFE170: 'XSDT', 'TP-G5', Rev: 1, Len: 188
+10:117  0:000    BAFFE0D4: 'RSDT', 'TP-G5', Rev: 1, Len: 112
+10:117  0:000    Tables in Xsdt: 19
+10:117  0:000    0. BAFE6000: 'FACP', 'TP-G5', Rev: 5, Len: 268
+10:117  0:000        (Dsdt: BAFE8000, Facs: BAF54000, XDsdt: BAFE8000, XFacs: 0)
+10:117  0:000        BAFE8000: 'DSDT', 'TP-G5', Rev: 1, Len: 69593
+10:119  0:001        BAF54000: 'FACS', Ver: 1, Len: 64
+10:119  0:000    1. BAFFD000: 'SLIC', 'TP-G5', Rev: 1, Len: 374
+10:119  0:000    2. BAFFC000: 'TCPA', 'LENOVO', Rev: 2, Len: 50
+10:119  0:000    3. BAFFB000: 'SSDT', 'TP-SSDT2', Rev: 1, Len: 1032
+10:119  0:000    4. BAFFA000: 'SSDT', 'TP-SSDT1', Rev: 1, Len: 51
+10:119  0:000    5. BAFF9000: 'SSDT', 'SataAhci', Rev: 1, Len: 1943
+10:119  0:000    6. BAFE4000: 'HPET', 'TP-G5', Rev: 1, Len: 56
+10:119  0:000    7. BAFE3000: 'APIC', 'TP-G5', Rev: 1, Len: 152
+10:119  0:000    8. BAFE2000: 'MCFG', 'TP-G5', Rev: 1, Len: 60
+10:119  0:000    9. BAFE1000: 'ECDT', 'TP-G5', Rev: 1, Len: 82
+10:119  0:000    10. BAFE0000: 'FPDT', 'TP-G5', Rev: 1, Len: 100
+10:119  0:000    11. BAFE7000: 'ASF!', 'TP-G5', Rev: 32, Len: 165
+10:119  0:000    12. BAFDF000: 'UEFI', 'TP-G5', Rev: 1, Len: 62
+10:119  0:000    13. BAFDE000: 'UEFI', 'COMBUF', Rev: 1, Len: 66
+10:119  0:000    14. BAFDD000: 'POAT', 'TP-G5', Rev: 3, Len: 85
+10:119  0:000    15. BAFDC000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 3363
+10:119  0:000    16. BAFDB000: 'SSDT', 'CpuPm', Rev: 1, Len: 2691
+10:119  0:000    17. BAFDA000: 'UEFI', 'TP-G5', Rev: 1, Len: 658
+10:119  0:000    18. BAFD9000: 'DBG2', 'TP-G5', Rev: 0, Len: 233
+10:119  0:000    Tables in Rsdt: 19
+10:119  0:000    0. BAFE5000: 'FACP', 'TP-G5', Rev: 4, Len: 244
+10:119  0:000        (Dsdt: BAFE8000, Facs: BAF54000, XDsdt: 0, XFacs: 0)
+10:119  0:000        BAFE8000: 'DSDT', 'TP-G5', Rev: 1, Len: 69593
+10:121  0:001        BAF54000: 'FACS', Ver: 1, Len: 64
+10:121  0:000    1. BAFFD000: 'SLIC', 'TP-G5', Rev: 1, Len: 374
+10:121  0:000    2. BAFFC000: 'TCPA', 'LENOVO', Rev: 2, Len: 50
+10:121  0:000    3. BAFFB000: 'SSDT', 'TP-SSDT2', Rev: 1, Len: 1032
+10:121  0:000    4. BAFFA000: 'SSDT', 'TP-SSDT1', Rev: 1, Len: 51
+10:121  0:000    5. BAFF9000: 'SSDT', 'SataAhci', Rev: 1, Len: 1943
+10:121  0:000    6. BAFE4000: 'HPET', 'TP-G5', Rev: 1, Len: 56
+10:121  0:000    7. BAFE3000: 'APIC', 'TP-G5', Rev: 1, Len: 152
+10:121  0:000    8. BAFE2000: 'MCFG', 'TP-G5', Rev: 1, Len: 60
+10:121  0:000    9. BAFE1000: 'ECDT', 'TP-G5', Rev: 1, Len: 82
+10:121  0:000    10. BAFE0000: 'FPDT', 'TP-G5', Rev: 1, Len: 100
+10:121  0:000    11. BAFE7000: 'ASF!', 'TP-G5', Rev: 32, Len: 165
+10:121  0:000    12. BAFDF000: 'UEFI', 'TP-G5', Rev: 1, Len: 62
+10:121  0:000    13. BAFDE000: 'UEFI', 'COMBUF', Rev: 1, Len: 66
+10:121  0:000    14. BAFDD000: 'POAT', 'TP-G5', Rev: 3, Len: 85
+10:121  0:000    15. BAFDC000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 3363
+10:121  0:000    16. BAFDB000: 'SSDT', 'CpuPm', Rev: 1, Len: 2691
+10:121  0:000    17. BAFDA000: 'UEFI', 'TP-G5', Rev: 1, Len: 658
+10:121  0:000    18. BAFD9000: 'DBG2', 'TP-G5', Rev: 0, Len: 233
+10:121  0:000  Found UEFI Acpi 2.0 RSDP at BAFFE014
+10:121  0:000  Saving ACPI tables from RSDP BAFFE014 to EFI\CLOVER\ACPI\origin ...
+10:121  0:000   BAFFE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+10:131  0:009    (Xsdt: BAFFE170, Rsdt: BAFFE0D4)
+10:131  0:000    BAFFE170: 'XSDT', 'TP-G5', Rev: 1, Len: 188 -> XSDT.aml
+10:133  0:002    BAFFE0D4: 'RSDT', 'TP-G5', Rev: 1, Len: 112 -> RSDT.aml
+10:135  0:002    Tables in Xsdt: 19
+10:135  0:000    0. BAFE6000: 'FACP', 'TP-G5', Rev: 5, Len: 268 -> FACP.aml
+10:137  0:002        (Dsdt: BAFE8000, Facs: BAF54000, XDsdt: BAFE8000, XFacs: 0)
+10:137  0:000        BAFE8000: 'DSDT', 'TP-G5', Rev: 1, Len: 69593 -> DSDT.aml
+10:142  0:004        BAF54000: 'FACS', Ver: 1, Len: 64 -> FACS.aml
+10:144  0:002    1. BAFFD000: 'SLIC', 'TP-G5', Rev: 1, Len: 374 -> SLIC.aml
+10:147  0:002    2. BAFFC000: 'TCPA', 'LENOVO', Rev: 2, Len: 50 -> TCPA.aml
+10:149  0:002    3. BAFFB000: 'SSDT', 'TP-SSDT2', Rev: 1, Len: 1032 -> SSDT-0-TP-SSDT2.aml
+10:152  0:002    4. BAFFA000: 'SSDT', 'TP-SSDT1', Rev: 1, Len: 51 -> SSDT-1-TP-SSDT1.aml
+10:154  0:002    5. BAFF9000: 'SSDT', 'SataAhci', Rev: 1, Len: 1943 -> SSDT-2-SataAhci.aml
+10:157  0:003    6. BAFE4000: 'HPET', 'TP-G5', Rev: 1, Len: 56 -> HPET.aml
+10:159  0:002    7. BAFE3000: 'APIC', 'TP-G5', Rev: 1, Len: 152 -> APIC.aml
+10:162  0:002    8. BAFE2000: 'MCFG', 'TP-G5', Rev: 1, Len: 60 -> MCFG.aml
+10:164  0:002    9. BAFE1000: 'ECDT', 'TP-G5', Rev: 1, Len: 82 -> ECDT.aml
+10:166  0:002    10. BAFE0000: 'FPDT', 'TP-G5', Rev: 1, Len: 100 -> FPDT.aml
+10:168  0:002    11. BAFE7000: 'ASF!', 'TP-G5', Rev: 32, Len: 165 -> ASF!.aml
+10:170  0:002    12. BAFDF000: 'UEFI', 'TP-G5', Rev: 1, Len: 62 -> UEFI.aml
+10:173  0:002    13. BAFDE000: 'UEFI', 'COMBUF', Rev: 1, Len: 66 -> UEFI.aml
+10:176  0:003    14. BAFDD000: 'POAT', 'TP-G5', Rev: 3, Len: 85 -> POAT.aml
+10:178  0:002    15. BAFDC000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 3363 -> SSDT-3-Cpu0Ist.aml
+10:180  0:002    16. BAFDB000: 'SSDT', 'CpuPm', Rev: 1, Len: 2691 -> SSDT-4-CpuPm.aml (Found hidden SSDT 4 pcs)
+10:183  0:002        * AB324018: 'ldri', '', Rev: 152, Len: 0  6C 64 72 69 00 00 00 00 98 14 32 AB 00 00 00 00 
+10:183  0:000        * BAE3DA98: 'SSDT', 'ApIst', Rev: 1, Len: 771  53 53 44 54 03 03 00 00 01 83 50 6D 52 65 66 00 Internal length = 771 -> SSDT-x4_0-ApIst.aml
+10:185  0:002        * BAE3C018: 'SSDT', 'Cpu0Cst', Rev: 1, Len: 2561  53 53 44 54 01 0A 00 00 01 ED 50 6D 52 65 66 00 Internal length = 2561 -> SSDT-x4_1-Cpu0Cst.aml
+10:188  0:002        * BAE3BD98: 'SSDT', 'ApCst', Rev: 1, Len: 281  53 53 44 54 19 01 00 00 01 F9 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x4_2-ApCst.aml
+10:190  0:002  
+10:190  0:000    17. BAFDA000: 'UEFI', 'TP-G5', Rev: 1, Len: 658 -> UEFI.aml
+10:193  0:003    18. BAFD9000: 'DBG2', 'TP-G5', Rev: 0, Len: 233 -> DBG2.aml
+10:195  0:002    Tables in Rsdt: 19
+10:195  0:000    0. BAFE5000: 'FACP', 'TP-G5', Rev: 4, Len: 244 -> RSDT-FACP.aml
+10:198  0:002        (Dsdt: BAFE8000, Facs: BAF54000, XDsdt: 0, XFacs: 0)
+10:198  0:000        BAFE8000: 'DSDT', 'TP-G5', Rev: 1, Len: 69593
+10:199  0:001        BAF54000: 'FACS', Ver: 1, Len: 64
+10:199  0:000    1. BAFFD000: 'SLIC', 'TP-G5', Rev: 1, Len: 374
+10:199  0:000    2. BAFFC000: 'TCPA', 'LENOVO', Rev: 2, Len: 50
+10:199  0:000    3. BAFFB000: 'SSDT', 'TP-SSDT2', Rev: 1, Len: 1032
+10:199  0:000    4. BAFFA000: 'SSDT', 'TP-SSDT1', Rev: 1, Len: 51
+10:199  0:000    5. BAFF9000: 'SSDT', 'SataAhci', Rev: 1, Len: 1943
+10:199  0:000    6. BAFE4000: 'HPET', 'TP-G5', Rev: 1, Len: 56
+10:199  0:000    7. BAFE3000: 'APIC', 'TP-G5', Rev: 1, Len: 152
+10:199  0:000    8. BAFE2000: 'MCFG', 'TP-G5', Rev: 1, Len: 60
+10:199  0:000    9. BAFE1000: 'ECDT', 'TP-G5', Rev: 1, Len: 82
+10:199  0:000    10. BAFE0000: 'FPDT', 'TP-G5', Rev: 1, Len: 100
+10:199  0:000    11. BAFE7000: 'ASF!', 'TP-G5', Rev: 32, Len: 165
+10:199  0:000    12. BAFDF000: 'UEFI', 'TP-G5', Rev: 1, Len: 62
+10:199  0:000    13. BAFDE000: 'UEFI', 'COMBUF', Rev: 1, Len: 66
+10:199  0:000    14. BAFDD000: 'POAT', 'TP-G5', Rev: 3, Len: 85
+10:199  0:000    15. BAFDC000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 3363
+10:199  0:000    16. BAFDB000: 'SSDT', 'CpuPm', Rev: 1, Len: 2691
+10:199  0:000    17. BAFDA000: 'UEFI', 'TP-G5', Rev: 1, Len: 658
+10:199  0:000    18. BAFD9000: 'DBG2', 'TP-G5', Rev: 0, Len: 233
+10:199  0:000  Found UEFI Acpi 1.0 RSDP at BAFFE000
+10:199  0:000  Printing ACPI tables from RSDP BAFFE000 ...
+10:199  0:000   BAFFE000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+10:199  0:000    (Rsdt: BAFFE038)
+10:199  0:000    BAFFE038: 'RSDT', 'TP-G5', Rev: 1, Len: 108
+10:199  0:000    Tables in Rsdt: 18
+10:199  0:000    0. BAFE5000: 'FACP', 'TP-G5', Rev: 4, Len: 244
+10:199  0:000        (Dsdt: BAFE8000, Facs: BAF54000, XDsdt: 0, XFacs: 0)
+10:199  0:000        BAFE8000: 'DSDT', 'TP-G5', Rev: 1, Len: 69593
+10:201  0:001        BAF54000: 'FACS', Ver: 1, Len: 64
+10:201  0:000    1. BAFFC000: 'TCPA', 'LENOVO', Rev: 2, Len: 50
+10:201  0:000    2. BAFFB000: 'SSDT', 'TP-SSDT2', Rev: 1, Len: 1032
+10:201  0:000    3. BAFFA000: 'SSDT', 'TP-SSDT1', Rev: 1, Len: 51
+10:201  0:000    4. BAFF9000: 'SSDT', 'SataAhci', Rev: 1, Len: 1943
+10:201  0:000    5. BAFE4000: 'HPET', 'TP-G5', Rev: 1, Len: 56
+10:201  0:000    6. BAFE3000: 'APIC', 'TP-G5', Rev: 1, Len: 152
+10:201  0:000    7. BAFE2000: 'MCFG', 'TP-G5', Rev: 1, Len: 60
+10:201  0:000    8. BAFE1000: 'ECDT', 'TP-G5', Rev: 1, Len: 82
+10:201  0:000    9. BAFE0000: 'FPDT', 'TP-G5', Rev: 1, Len: 100
+10:201  0:000    10. BAFE7000: 'ASF!', 'TP-G5', Rev: 32, Len: 165
+10:201  0:000    11. BAFDF000: 'UEFI', 'TP-G5', Rev: 1, Len: 62
+10:201  0:000    12. BAFDE000: 'UEFI', 'COMBUF', Rev: 1, Len: 66
+10:201  0:000    13. BAFDD000: 'POAT', 'TP-G5', Rev: 3, Len: 85
+10:201  0:000    14. BAFDC000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 3363
+10:201  0:000    15. BAFDB000: 'SSDT', 'CpuPm', Rev: 1, Len: 2691
+10:201  0:000    16. BAFDA000: 'UEFI', 'TP-G5', Rev: 1, Len: 658
+10:201  0:000    17. BAFD9000: 'DBG2', 'TP-G5', Rev: 0, Len: 233

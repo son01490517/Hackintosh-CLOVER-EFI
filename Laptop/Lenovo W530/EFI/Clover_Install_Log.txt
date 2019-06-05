@@ -1,0 +1,48 @@
+
+Clover EFI installer log - Tue Jun  4 19:33:44 PDT 2019
+Installer version: v2.4k r4934 EFI bootloader
+======================================================
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *250.1 GB   disk0
+   1:                        EFI EFI                     209.7 MB   disk0s1
+   2:                 Apple_APFS Container disk1         249.7 GB   disk0s2
+
+/dev/disk1 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +249.7 GB   disk1
+                                 Physical Store disk0s2
+   1:                APFS Volume Macintosh HD            11.5 GB    disk1s1
+   2:                APFS Volume Preboot                 41.4 MB    disk1s2
+   3:                APFS Volume Recovery                516.5 MB   disk1s3
+
+/dev/disk2 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *1.0 TB     disk2
+   1:                  Apple_HFS mac-app                 710.8 GB   disk2s1
+   2:                  Apple_HFS 30gb                    75.6 GB    disk2s2
+   3:                  Apple_HFS 10.12.6-16G1212         32.2 GB    disk2s3
+   4:                  Apple_HFS 10.13-17A365            32.2 GB    disk2s4
+   5:                  Apple_HFS 10.14.3-18D42           32.2 GB    disk2s5
+   6:                  Apple_HFS 10.14-18A391            32.2 GB    disk2s6
+   7:                        EFI EFI-SSD                 2.1 GB     disk2s7
+   8:                  Apple_HFS 10.9.5-13F34            32.2 GB    disk2s8
+   9:                  Apple_HFS Install macOS Mojave    8.6 GB     disk2s9
+  10:                  Apple_HFS legacy-installer        8.6 GB     disk2s10
+
+Target volume /Volumes/Macintosh HD on disk1 is APFS on physical store disk0s2
+======================================================
+Backing up EFI files
+
+Backing up /Volumes/Macintosh HD/EFIROOTDIR/EFI folder to /Volumes/Macintosh HD/EFI-Backups/r0000/2019-06-04-19h33/EFI
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /Volumes/Macintosh HD
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /Volumes/Macintosh HD
+
+Theme 'Clovy' (defined in config.plist) not found !
+Using default theme 'random'
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================

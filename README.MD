@@ -20,3 +20,7 @@
 
 - [Lenovo W530](./Laptop/Lenovo%20W530)
 - [Lenovo Y520](./Laptop/Lenovo%20Y520)
+
+## Contributors
+
+- [Nguyễn Minh Sơn](https://www.facebook.com/son01490517)

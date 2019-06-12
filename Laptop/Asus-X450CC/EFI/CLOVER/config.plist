@@ -907,7 +907,7 @@
 		<key>Audio</key>
 		<dict>
 			<key>Inject</key>
-			<integer>2</integer>
+			<integer>14</integer>
 		</dict>
 		<key>Inject</key>
 		<false/>

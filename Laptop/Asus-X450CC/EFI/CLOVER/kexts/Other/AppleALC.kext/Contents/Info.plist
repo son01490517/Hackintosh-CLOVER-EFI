@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>16G2016</string>
+	<string>18F132</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -29,17 +29,17 @@
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>9C40b</string>
+	<string>10E1001</string>
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
-	<string>17C76</string>
+	<string>18E219</string>
 	<key>DTSDKName</key>
-	<string>macosx10.13</string>
+	<string>macosx10.14</string>
 	<key>DTXcode</key>
-	<string>0920</string>
+	<string>1020</string>
 	<key>DTXcodeBuild</key>
-	<string>9C40b</string>
+	<string>10E1001</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>HDA Hardware Config Resource</key>
@@ -3073,7 +3073,7 @@
 					AwAAAA==
 					</data>
 					<key>Codec</key>
-					<string>Daniel - Realtek ALC270 for Asus x540cc</string>
+					<string>Mirone - Realtek ALC270 v2</string>
 					<key>CodecID</key>
 					<integer>283902576</integer>
 					<key>ConfigData</key>
@@ -3085,6 +3085,31 @@
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>4</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAg==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>Daniel - Realtek ALC270 for Asus Laptops</string>
+					<key>CodecID</key>
+					<integer>283902576</integer>
+					<key>ConfigData</key>
+					<data>
+					AZccMAGXHQABlx6gAZcfkAFHHEABRx0AAUce
+					FwFHH5ACFxxQAhcdEAIXHiECFx8A
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>14</integer>
 					<key>WakeConfigData</key>
 					<data>
 					AUcMAg==
@@ -8797,19 +8822,19 @@
 					AwAAAA==
 					</data>
 					<key>Codec</key>
-					<string>Daniel - Conexant CX20753/4</string>
+					<string>Mirone - Conexant CX20753/4</string>
 					<key>CodecID</key>
 					<integer>351359249</integer>
 					<key>ConfigData</key>
 					<data>
-					AXccEAF3HQEBdx4XAXcfkAGnHCABpx0BAace
-					oAGnH5ABlxwwAZcdEAGXHoEBlx8AAWccQAFn
-					HRABZx4hAWcfAA==
+					AWccEAFnHUABZx4hAWcfAgF3HCABdx0AAXce
+					FwF3H5ABlxwwAZcdkAGXHoEBlx8CAaccQAGn
+					HQABpx6gAacfkA==
 					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
-					<integer>2</integer>
+					<integer>3</integer>
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>

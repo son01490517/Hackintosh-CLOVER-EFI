@@ -1,0 +1,128 @@
+19:490  0:217  Found UEFI Acpi 2.0 RSDP at 7B344000
+19:491  0:000  Saving ACPI tables from RSDP 7B344000 to EFI\CLOVER\ACPI\origin ...
+19:491  0:000   7B344000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+19:491  0:000    (Xsdt: 7B3440B8, Rsdt: 7B344028)
+19:491  0:000    7B3440B8: 'XSDT', 'QA09', Rev: 1, Len: 236
+19:491  0:000    7B344028: 'RSDT', 'QA09', Rev: 1, Len: 136
+19:491  0:000    Tables in Xsdt: 25
+19:491  0:000    0. 7B368968: 'FACP', 'QA09', Rev: 6, Len: 276
+19:491  0:000        (Dsdt: 7B344230, Facs: 7BB95C80, XDsdt: 7B344230, XFacs: 0)
+19:491  0:000        7B344230: 'DSDT', 'QA09', Rev: 2, Len: 149297
+19:493  0:002        7BB95C80: 'FACS', Ver: 2, Len: 64
+19:493  0:000    1. 7B368A80: 'APIC', 'QA09', Rev: 3, Len: 188
+19:493  0:000    2. 7B368B40: 'FPDT', 'QA09', Rev: 1, Len: 68
+19:493  0:000    3. 7B368B88: 'MCFG', 'QA09', Rev: 1, Len: 60
+19:493  0:000    4. 7B368BC8: 'SSDT', 'SataTabl', Rev: 1, Len: 882
+19:493  0:000    5. 7B368F40: 'FIDT', 'QA09', Rev: 1, Len: 156
+19:493  0:000    6. 7B368FE0: 'SSDT', 'DptfTabl', Rev: 2, Len: 33875
+19:493  0:000    7. 7B371438: 'BOOT', 'QA09', Rev: 1, Len: 40
+19:493  0:000    8. 7B371460: 'SLIC', 'ALIENWRE', Rev: 1, Len: 374
+19:493  0:000    9. 7B3715D8: 'SSDT', 'SaSsdt', Rev: 2, Len: 12633
+19:493  0:000    10. 7B374738: 'SSDT', 'PegSsdt', Rev: 2, Len: 10237
+19:493  0:000    11. 7B376F38: 'HPET', 'KBL', Rev: 1, Len: 56
+19:493  0:000    12. 7B376F70: 'SSDT', 'xh_rvp11', Rev: 2, Len: 2394
+19:493  0:000    13. 7B3778D0: 'UEFI', 'EDK2', Rev: 1, Len: 66
+19:493  0:000    14. 7B377918: 'MSDM', 'QA09', Rev: 3, Len: 85
+19:493  0:000    15. 7B377970: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+19:493  0:000    16. 7B378850: 'LPIT', 'KBL', Rev: 1, Len: 148
+19:493  0:000    17. 7B3788E8: 'WSMT', 'KBL', Rev: 1, Len: 40
+19:493  0:000    18. 7B378910: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+19:493  0:000    19. 7B378BB0: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+19:493  0:000    20. 7B37BBB8: 'DBGP', '', Rev: 1, Len: 52
+19:493  0:000    21. 7B37BBF0: 'DBG2', '', Rev: 0, Len: 84
+19:493  0:000    22. 7B37BC48: 'SSDT', 'SgPeg', Rev: 2, Len: 174
+19:493  0:000    23. 7B37BCF8: 'DMAR', 'KBL', Rev: 1, Len: 240
+19:493  0:000    24. 7B37BDE8: 'SSDT', 'OptTabl', Rev: 1, Len: 7314
+19:493  0:000    Tables in Rsdt: 25
+19:493  0:000    0. 7B3441A8: 'FACP', 'QA09', Rev: 2, Len: 132
+19:493  0:000        (Dsdt: 7B344230, Facs: 7BB95C40)
+19:493  0:000        7B344230: 'DSDT', 'QA09', Rev: 2, Len: 149297
+19:495  0:002        7BB95C40: 'FACS', Ver: 0, Len: 64
+19:495  0:000    1. 7B368A80: 'APIC', 'QA09', Rev: 3, Len: 188
+19:495  0:000    2. 7B368B40: 'FPDT', 'QA09', Rev: 1, Len: 68
+19:495  0:000    3. 7B368B88: 'MCFG', 'QA09', Rev: 1, Len: 60
+19:495  0:000    4. 7B368BC8: 'SSDT', 'SataTabl', Rev: 1, Len: 882
+19:495  0:000    5. 7B368F40: 'FIDT', 'QA09', Rev: 1, Len: 156
+19:495  0:000    6. 7B368FE0: 'SSDT', 'DptfTabl', Rev: 2, Len: 33875
+19:495  0:000    7. 7B371438: 'BOOT', 'QA09', Rev: 1, Len: 40
+19:495  0:000    8. 7B371460: 'SLIC', 'ALIENWRE', Rev: 1, Len: 374
+19:495  0:000    9. 7B3715D8: 'SSDT', 'SaSsdt', Rev: 2, Len: 12633
+19:495  0:000    10. 7B374738: 'SSDT', 'PegSsdt', Rev: 2, Len: 10237
+19:495  0:000    11. 7B376F38: 'HPET', 'KBL', Rev: 1, Len: 56
+19:495  0:000    12. 7B376F70: 'SSDT', 'xh_rvp11', Rev: 2, Len: 2394
+19:495  0:000    13. 7B3778D0: 'UEFI', 'EDK2', Rev: 1, Len: 66
+19:495  0:000    14. 7B377918: 'MSDM', 'QA09', Rev: 3, Len: 85
+19:495  0:000    15. 7B377970: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+19:495  0:000    16. 7B378850: 'LPIT', 'KBL', Rev: 1, Len: 148
+19:495  0:000    17. 7B3788E8: 'WSMT', 'KBL', Rev: 1, Len: 40
+19:495  0:000    18. 7B378910: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+19:495  0:000    19. 7B378BB0: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+19:495  0:000    20. 7B37BBB8: 'DBGP', '', Rev: 1, Len: 52
+19:495  0:000    21. 7B37BBF0: 'DBG2', '', Rev: 0, Len: 84
+19:495  0:000    22. 7B37BC48: 'SSDT', 'SgPeg', Rev: 2, Len: 174
+19:495  0:000    23. 7B37BCF8: 'DMAR', 'KBL', Rev: 1, Len: 240
+19:495  0:000    24. 7B37BDE8: 'SSDT', 'OptTabl', Rev: 1, Len: 7314
+19:495  0:000  Found UEFI Acpi 1.0 RSDP at 7B344000
+19:495  0:000  Printing ACPI tables from RSDP 7B344000 ...
+19:495  0:000   7B344000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+19:495  0:000    (Xsdt: 7B3440B8, Rsdt: 7B344028)
+19:495  0:000    7B3440B8: 'XSDT', 'QA09', Rev: 1, Len: 236
+19:495  0:000    7B344028: 'RSDT', 'QA09', Rev: 1, Len: 136
+19:495  0:000    Tables in Xsdt: 25
+19:495  0:000    0. 7B368968: 'FACP', 'QA09', Rev: 6, Len: 276
+19:495  0:000        (Dsdt: 7B344230, Facs: 7BB95C80, XDsdt: 7B344230, XFacs: 0)
+19:495  0:000        7B344230: 'DSDT', 'QA09', Rev: 2, Len: 149297
+19:498  0:002        7BB95C80: 'FACS', Ver: 2, Len: 64
+19:498  0:000    1. 7B368A80: 'APIC', 'QA09', Rev: 3, Len: 188
+19:498  0:000    2. 7B368B40: 'FPDT', 'QA09', Rev: 1, Len: 68
+19:498  0:000    3. 7B368B88: 'MCFG', 'QA09', Rev: 1, Len: 60
+19:498  0:000    4. 7B368BC8: 'SSDT', 'SataTabl', Rev: 1, Len: 882
+19:498  0:000    5. 7B368F40: 'FIDT', 'QA09', Rev: 1, Len: 156
+19:498  0:000    6. 7B368FE0: 'SSDT', 'DptfTabl', Rev: 2, Len: 33875
+19:498  0:000    7. 7B371438: 'BOOT', 'QA09', Rev: 1, Len: 40
+19:498  0:000    8. 7B371460: 'SLIC', 'ALIENWRE', Rev: 1, Len: 374
+19:498  0:000    9. 7B3715D8: 'SSDT', 'SaSsdt', Rev: 2, Len: 12633
+19:498  0:000    10. 7B374738: 'SSDT', 'PegSsdt', Rev: 2, Len: 10237
+19:498  0:000    11. 7B376F38: 'HPET', 'KBL', Rev: 1, Len: 56
+19:498  0:000    12. 7B376F70: 'SSDT', 'xh_rvp11', Rev: 2, Len: 2394
+19:498  0:000    13. 7B3778D0: 'UEFI', 'EDK2', Rev: 1, Len: 66
+19:498  0:000    14. 7B377918: 'MSDM', 'QA09', Rev: 3, Len: 85
+19:498  0:000    15. 7B377970: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+19:498  0:000    16. 7B378850: 'LPIT', 'KBL', Rev: 1, Len: 148
+19:498  0:000    17. 7B3788E8: 'WSMT', 'KBL', Rev: 1, Len: 40
+19:498  0:000    18. 7B378910: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+19:498  0:000    19. 7B378BB0: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+19:498  0:000    20. 7B37BBB8: 'DBGP', '', Rev: 1, Len: 52
+19:498  0:000    21. 7B37BBF0: 'DBG2', '', Rev: 0, Len: 84
+19:498  0:000    22. 7B37BC48: 'SSDT', 'SgPeg', Rev: 2, Len: 174
+19:498  0:000    23. 7B37BCF8: 'DMAR', 'KBL', Rev: 1, Len: 240
+19:498  0:000    24. 7B37BDE8: 'SSDT', 'OptTabl', Rev: 1, Len: 7314
+19:498  0:000    Tables in Rsdt: 25
+19:498  0:000    0. 7B3441A8: 'FACP', 'QA09', Rev: 2, Len: 132
+19:498  0:000        (Dsdt: 7B344230, Facs: 7BB95C40)
+19:498  0:000        7B344230: 'DSDT', 'QA09', Rev: 2, Len: 149297
+19:500  0:002        7BB95C40: 'FACS', Ver: 0, Len: 64
+19:500  0:000    1. 7B368A80: 'APIC', 'QA09', Rev: 3, Len: 188
+19:500  0:000    2. 7B368B40: 'FPDT', 'QA09', Rev: 1, Len: 68
+19:500  0:000    3. 7B368B88: 'MCFG', 'QA09', Rev: 1, Len: 60
+19:500  0:000    4. 7B368BC8: 'SSDT', 'SataTabl', Rev: 1, Len: 882
+19:500  0:000    5. 7B368F40: 'FIDT', 'QA09', Rev: 1, Len: 156
+19:500  0:000    6. 7B368FE0: 'SSDT', 'DptfTabl', Rev: 2, Len: 33875
+19:500  0:000    7. 7B371438: 'BOOT', 'QA09', Rev: 1, Len: 40
+19:500  0:000    8. 7B371460: 'SLIC', 'ALIENWRE', Rev: 1, Len: 374
+19:500  0:000    9. 7B3715D8: 'SSDT', 'SaSsdt', Rev: 2, Len: 12633
+19:500  0:000    10. 7B374738: 'SSDT', 'PegSsdt', Rev: 2, Len: 10237
+19:500  0:000    11. 7B376F38: 'HPET', 'KBL', Rev: 1, Len: 56
+19:500  0:000    12. 7B376F70: 'SSDT', 'xh_rvp11', Rev: 2, Len: 2394
+19:500  0:000    13. 7B3778D0: 'UEFI', 'EDK2', Rev: 1, Len: 66
+19:500  0:000    14. 7B377918: 'MSDM', 'QA09', Rev: 3, Len: 85
+19:500  0:000    15. 7B377970: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+19:500  0:000    16. 7B378850: 'LPIT', 'KBL', Rev: 1, Len: 148
+19:500  0:000    17. 7B3788E8: 'WSMT', 'KBL', Rev: 1, Len: 40
+19:500  0:000    18. 7B378910: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+19:500  0:000    19. 7B378BB0: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+19:500  0:000    20. 7B37BBB8: 'DBGP', '', Rev: 1, Len: 52
+19:500  0:000    21. 7B37BBF0: 'DBG2', '', Rev: 0, Len: 84
+19:500  0:000    22. 7B37BC48: 'SSDT', 'SgPeg', Rev: 2, Len: 174
+19:500  0:000    23. 7B37BCF8: 'DMAR', 'KBL', Rev: 1, Len: 240
+19:500  0:000    24. 7B37BDE8: 'SSDT', 'OptTabl', Rev: 1, Len: 7314

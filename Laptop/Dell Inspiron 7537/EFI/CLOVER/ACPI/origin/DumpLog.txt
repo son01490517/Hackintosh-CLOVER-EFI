@@ -1,0 +1,137 @@
+11:769  0:654  Found BIOS RSDP at F0020
+11:769  0:000  Printing ACPI tables from RSDP F0020 ...
+11:769  0:000   F0020: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+11:769  0:000    (Xsdt: BCFFE170, Rsdt: BCFFE0D4)
+11:769  0:000    BCFFE170: 'XSDT', 'WN09', Rev: 1, Len: 196
+11:769  0:000    BCFFE0D4: 'RSDT', 'WN09', Rev: 1, Len: 116
+11:769  0:000    Tables in Xsdt: 20
+11:769  0:000    0. BCFFB000: 'FACP', 'WN09', Rev: 5, Len: 268
+11:769  0:000        (Dsdt: BCFE9000, Facs: BCF9A000, XDsdt: BCFE9000, XFacs: 0)
+11:769  0:000        BCFE9000: 'DSDT', 'HSW-LPT', Rev: 2, Len: 56167
+11:771  0:002        BCF9A000: 'FACS', Ver: 2, Len: 64
+11:771  0:000    1. BCFFD000: 'ASF!', 'WN09', Rev: 32, Len: 165
+11:771  0:000    2. BCFFA000: 'HPET', 'WN09', Rev: 1, Len: 56
+11:771  0:000    3. BCFF9000: 'LPIT', 'WN09', Rev: 1, Len: 148
+11:771  0:000    4. BCFF8000: 'APIC', 'WN09', Rev: 1, Len: 152
+11:771  0:000    5. BCFF7000: 'MCFG', 'WN09', Rev: 1, Len: 60
+11:771  0:000    6. BCFE8000: 'SSDT', 'sensrhub', Rev: 1, Len: 552
+11:771  0:000    7. BCFE5000: 'SSDT', 'PtidDevc', Rev: 1, Len: 8232
+11:771  0:000    8. BCFE4000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1172
+11:771  0:000    9. BCFE3000: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+11:771  0:000    10. BCFDF000: 'SSDT', 'SaSsdt', Rev: 1, Len: 13662
+11:771  0:000    11. BCFDE000: 'UEFI', 'WN09', Rev: 1, Len: 66
+11:771  0:000    12. BCF72000: 'POAT', 'WN09', Rev: 3, Len: 85
+11:771  0:000    13. BCFDD000: 'UEFI', 'WN09', Rev: 1, Len: 62
+11:771  0:000    14. BCFDC000: 'FPDT', 'WN09', Rev: 1, Len: 100
+11:771  0:000    15. BCFDA000: 'SSDT', 'NvUltTbl', Rev: 1, Len: 4169
+11:771  0:000    16. BCFD9000: 'SSDT', 'IsctTabl', Rev: 1, Len: 2250
+11:771  0:000    17. BCFD8000: 'UEFI', 'WN09', Rev: 1, Len: 718
+11:771  0:000    18. BCFD7000: 'BGRT', 'WN09', Rev: 1, Len: 56
+11:771  0:000    19. BCFD6000: 'CSRT', 'WN09', Rev: 1, Len: 196
+11:771  0:000    Tables in Rsdt: 20
+11:771  0:000    0. BCFFC000: 'FACP', 'WN09', Rev: 1, Len: 116
+11:771  0:000        (Dsdt: BCFE9000, Facs: BCF9A000)
+11:771  0:000        BCFE9000: 'DSDT', 'HSW-LPT', Rev: 2, Len: 56167
+11:773  0:002        BCF9A000: 'FACS', Ver: 2, Len: 64
+11:773  0:000    1. BCFFD000: 'ASF!', 'WN09', Rev: 32, Len: 165
+11:773  0:000    2. BCFFA000: 'HPET', 'WN09', Rev: 1, Len: 56
+11:773  0:000    3. BCFF9000: 'LPIT', 'WN09', Rev: 1, Len: 148
+11:773  0:000    4. BCFF8000: 'APIC', 'WN09', Rev: 1, Len: 152
+11:773  0:000    5. BCFF7000: 'MCFG', 'WN09', Rev: 1, Len: 60
+11:773  0:000    6. BCFE8000: 'SSDT', 'sensrhub', Rev: 1, Len: 552
+11:773  0:000    7. BCFE5000: 'SSDT', 'PtidDevc', Rev: 1, Len: 8232
+11:773  0:000    8. BCFE4000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1172
+11:773  0:000    9. BCFE3000: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+11:773  0:000    10. BCFDF000: 'SSDT', 'SaSsdt', Rev: 1, Len: 13662
+11:773  0:000    11. BCFDE000: 'UEFI', 'WN09', Rev: 1, Len: 66
+11:773  0:000    12. BCF72000: 'POAT', 'WN09', Rev: 3, Len: 85
+11:773  0:000    13. BCFDD000: 'UEFI', 'WN09', Rev: 1, Len: 62
+11:773  0:000    14. BCFDC000: 'FPDT', 'WN09', Rev: 1, Len: 100
+11:773  0:000    15. BCFDA000: 'SSDT', 'NvUltTbl', Rev: 1, Len: 4169
+11:773  0:000    16. BCFD9000: 'SSDT', 'IsctTabl', Rev: 1, Len: 2250
+11:773  0:000    17. BCFD8000: 'UEFI', 'WN09', Rev: 1, Len: 718
+11:773  0:000    18. BCFD7000: 'BGRT', 'WN09', Rev: 1, Len: 56
+11:773  0:000    19. BCFD6000: 'CSRT', 'WN09', Rev: 1, Len: 196
+11:773  0:000  Found UEFI Acpi 2.0 RSDP at BCFFE014
+11:773  0:000  Saving ACPI tables from RSDP BCFFE014 to EFI\CLOVER\ACPI\origin ...
+11:773  0:000   BCFFE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+11:773  0:000    (Xsdt: BCFFE170, Rsdt: BCFFE0D4)
+11:773  0:000    BCFFE170: 'XSDT', 'WN09', Rev: 1, Len: 196
+11:773  0:000    BCFFE0D4: 'RSDT', 'WN09', Rev: 1, Len: 116
+11:773  0:000    Tables in Xsdt: 20
+11:773  0:000    0. BCFFB000: 'FACP', 'WN09', Rev: 5, Len: 268
+11:773  0:000        (Dsdt: BCFE9000, Facs: BCF9A000, XDsdt: BCFE9000, XFacs: 0)
+11:773  0:000        BCFE9000: 'DSDT', 'HSW-LPT', Rev: 2, Len: 56167
+11:775  0:002        BCF9A000: 'FACS', Ver: 2, Len: 64
+11:775  0:000    1. BCFFD000: 'ASF!', 'WN09', Rev: 32, Len: 165
+11:775  0:000    2. BCFFA000: 'HPET', 'WN09', Rev: 1, Len: 56
+11:775  0:000    3. BCFF9000: 'LPIT', 'WN09', Rev: 1, Len: 148
+11:775  0:000    4. BCFF8000: 'APIC', 'WN09', Rev: 1, Len: 152
+11:775  0:000    5. BCFF7000: 'MCFG', 'WN09', Rev: 1, Len: 60
+11:775  0:000    6. BCFE8000: 'SSDT', 'sensrhub', Rev: 1, Len: 552
+11:775  0:000    7. BCFE5000: 'SSDT', 'PtidDevc', Rev: 1, Len: 8232
+11:775  0:000    8. BCFE4000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1172
+11:775  0:000    9. BCFE3000: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+11:775  0:000    10. BCFDF000: 'SSDT', 'SaSsdt', Rev: 1, Len: 13662
+11:775  0:000    11. BCFDE000: 'UEFI', 'WN09', Rev: 1, Len: 66
+11:775  0:000    12. BCF72000: 'POAT', 'WN09', Rev: 3, Len: 85
+11:775  0:000    13. BCFDD000: 'UEFI', 'WN09', Rev: 1, Len: 62
+11:775  0:000    14. BCFDC000: 'FPDT', 'WN09', Rev: 1, Len: 100
+11:775  0:000    15. BCFDA000: 'SSDT', 'NvUltTbl', Rev: 1, Len: 4169
+11:775  0:000    16. BCFD9000: 'SSDT', 'IsctTabl', Rev: 1, Len: 2250
+11:775  0:000    17. BCFD8000: 'UEFI', 'WN09', Rev: 1, Len: 718
+11:775  0:000    18. BCFD7000: 'BGRT', 'WN09', Rev: 1, Len: 56
+11:775  0:000    19. BCFD6000: 'CSRT', 'WN09', Rev: 1, Len: 196
+11:775  0:000    Tables in Rsdt: 20
+11:775  0:000    0. BCFFC000: 'FACP', 'WN09', Rev: 1, Len: 116
+11:775  0:000        (Dsdt: BCFE9000, Facs: BCF9A000)
+11:775  0:000        BCFE9000: 'DSDT', 'HSW-LPT', Rev: 2, Len: 56167
+11:777  0:002        BCF9A000: 'FACS', Ver: 2, Len: 64
+11:777  0:000    1. BCFFD000: 'ASF!', 'WN09', Rev: 32, Len: 165
+11:777  0:000    2. BCFFA000: 'HPET', 'WN09', Rev: 1, Len: 56
+11:777  0:000    3. BCFF9000: 'LPIT', 'WN09', Rev: 1, Len: 148
+11:777  0:000    4. BCFF8000: 'APIC', 'WN09', Rev: 1, Len: 152
+11:777  0:000    5. BCFF7000: 'MCFG', 'WN09', Rev: 1, Len: 60
+11:777  0:000    6. BCFE8000: 'SSDT', 'sensrhub', Rev: 1, Len: 552
+11:777  0:000    7. BCFE5000: 'SSDT', 'PtidDevc', Rev: 1, Len: 8232
+11:777  0:000    8. BCFE4000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1172
+11:777  0:000    9. BCFE3000: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+11:777  0:000    10. BCFDF000: 'SSDT', 'SaSsdt', Rev: 1, Len: 13662
+11:777  0:000    11. BCFDE000: 'UEFI', 'WN09', Rev: 1, Len: 66
+11:777  0:000    12. BCF72000: 'POAT', 'WN09', Rev: 3, Len: 85
+11:777  0:000    13. BCFDD000: 'UEFI', 'WN09', Rev: 1, Len: 62
+11:777  0:000    14. BCFDC000: 'FPDT', 'WN09', Rev: 1, Len: 100
+11:777  0:000    15. BCFDA000: 'SSDT', 'NvUltTbl', Rev: 1, Len: 4169
+11:777  0:000    16. BCFD9000: 'SSDT', 'IsctTabl', Rev: 1, Len: 2250
+11:777  0:000    17. BCFD8000: 'UEFI', 'WN09', Rev: 1, Len: 718
+11:777  0:000    18. BCFD7000: 'BGRT', 'WN09', Rev: 1, Len: 56
+11:777  0:000    19. BCFD6000: 'CSRT', 'WN09', Rev: 1, Len: 196
+11:777  0:000  Found UEFI Acpi 1.0 RSDP at BCFFE000
+11:777  0:000  Printing ACPI tables from RSDP BCFFE000 ...
+11:777  0:000   BCFFE000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+11:777  0:000    (Rsdt: BCFFE038)
+11:777  0:000    BCFFE038: 'RSDT', 'WN09', Rev: 1, Len: 116
+11:777  0:000    Tables in Rsdt: 20
+11:777  0:000    0. BCFFC000: 'FACP', 'WN09', Rev: 1, Len: 116
+11:777  0:000        (Dsdt: BCFE9000, Facs: BCF9A000)
+11:777  0:000        BCFE9000: 'DSDT', 'HSW-LPT', Rev: 2, Len: 56167
+11:779  0:002        BCF9A000: 'FACS', Ver: 2, Len: 64
+11:779  0:000    1. BCFFD000: 'ASF!', 'WN09', Rev: 32, Len: 165
+11:780  0:000    2. BCFFA000: 'HPET', 'WN09', Rev: 1, Len: 56
+11:780  0:000    3. BCFF9000: 'LPIT', 'WN09', Rev: 1, Len: 148
+11:780  0:000    4. BCFF8000: 'APIC', 'WN09', Rev: 1, Len: 152
+11:780  0:000    5. BCFF7000: 'MCFG', 'WN09', Rev: 1, Len: 60
+11:780  0:000    6. BCFE8000: 'SSDT', 'sensrhub', Rev: 1, Len: 552
+11:780  0:000    7. BCFE5000: 'SSDT', 'PtidDevc', Rev: 1, Len: 8232
+11:780  0:000    8. BCFE4000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1172
+11:780  0:000    9. BCFE3000: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+11:780  0:000    10. BCFDF000: 'SSDT', 'SaSsdt', Rev: 1, Len: 13662
+11:780  0:000    11. BCFDE000: 'UEFI', 'WN09', Rev: 1, Len: 66
+11:780  0:000    12. BCF72000: 'POAT', 'WN09', Rev: 3, Len: 85
+11:780  0:000    13. BCFDD000: 'UEFI', 'WN09', Rev: 1, Len: 62
+11:780  0:000    14. BCFDC000: 'FPDT', 'WN09', Rev: 1, Len: 100
+11:780  0:000    15. BCFDA000: 'SSDT', 'NvUltTbl', Rev: 1, Len: 4169
+11:780  0:000    16. BCFD9000: 'SSDT', 'IsctTabl', Rev: 1, Len: 2250
+11:780  0:000    17. BCFD8000: 'UEFI', 'WN09', Rev: 1, Len: 718
+11:780  0:000    18. BCFD7000: 'BGRT', 'WN09', Rev: 1, Len: 56
+11:780  0:000    19. BCFD6000: 'CSRT', 'WN09', Rev: 1, Len: 196
